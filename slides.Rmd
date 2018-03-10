@@ -1,0 +1,33 @@
+---
+title: "Web scraping in R using the rvest package"
+author:
+- Kathryn Morrison, Co-Founder \newline            
+- Precision Analytics Inc 
+date: "March 15, 2018"
+output: beamer_presentation
+incremental: yes
+subtitle: R Ladies Meetup
+theme: metropolis
+header-includes:
+- \usepackage{tikz}
+- \usepackage{pgfplots}
+- \usepackage{graphicx}
+- \usepackage{bm}
+- \usepackage{amsmath}
+- \usepackage{amssymb}
+- \usepackage{mathtools}
+- \usetikzlibrary{shadows,shapes,arrows,automata,calc,shapes.geometric,shapes.multipart,positioning,trees}
+---
+
+## 1. What is web scraping and why is it useful?     
+
+
+ \vspace{2mm} 
+ 
+## 2. Examples of webscraping with rvest 
+
+\begin{beamercolorbox}[sep=1mm]{tealbox}
+\footnotesize Olympics data 
+\end{beamercolorbox}
+
+
