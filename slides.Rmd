@@ -19,15 +19,35 @@ header-includes:
 - \usetikzlibrary{shadows,shapes,arrows,automata,calc,shapes.geometric,shapes.multipart,positioning,trees}
 ---
 
-## 1. What is web scraping and why is it useful?     
+## What is web scraping and why is it useful?     
+
+Say you want to download the Olympics data to do some analysis: 
+
+\includegraphics[scale = 0.2]{fig1.png}
+
+You could manually copy and paste the data into a spreadsheet, but it would take a long time. 
+
+## What is web scraping and why is it useful?     
+
+Web scraping is basically automating the collection/download of unstructured data from online sources into a format you can use, e.g., plain text, csv, JSON, etc   
+
+You can web scrape in almost any language (e.g., python, java, and *R*!)
+
+Some popular approaches to web scraping: 
+1. Human copy and paste (no)
+2. Text pattern matching with regular expressions
+3. Using an API
+4. DOM parsing a website 
 
 
- \vspace{2mm} 
- 
-## 2. Examples of webscraping with rvest 
+\vspace{2mm} 
+
+## Examples of webscraping with rvest 
 
 \begin{beamercolorbox}[sep=1mm]{tealbox}
 \footnotesize Olympics data 
 \end{beamercolorbox}
+
+
 
 
